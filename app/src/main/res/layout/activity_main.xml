@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbMain"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextColor="@color/black"
+        app:title="Booking Page"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+    <TextView
+        android:id="@+id/datepicker"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Pick the Date"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/edit_text_bg"
+        android:padding="5dp"/>
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edit_text_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:gravity="center"
+            android:text="Start Time: "
+            android:textSize="30dp"
+            android:textStyle="italic"
+            android:textColor="@color/black" />
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:timePickerMode="spinner"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/edit_text_bg"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:gravity="start">
+
+        <TextView
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:text="Hours: "
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginRight="5dp"/>
+
+        <NumberPicker
+            android:id="@+id/numberPicker"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Submit"
+        android:background="@drawable/btn_bg"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

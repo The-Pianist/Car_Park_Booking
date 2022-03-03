@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.OrderDetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextColor="@color/black"
+        app:title="Booking Detail"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/edit_text_bg">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text_bg">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Start Time: "
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/tvStartTime"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text_bg">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="End Time: "
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/tvEndTime"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text_bg">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Hours: "
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/tvHorus"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text_bg">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Park Num: "
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/tvParkNo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/btn_bg"
+        android:textStyle="bold"
+        android:text="Cancel"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/red"
+        android:textSize="25dp"/>
+
+    </LinearLayout>
+</LinearLayout>

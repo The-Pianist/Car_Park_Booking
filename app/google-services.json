@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "707944854135",
+    "project_id": "carparkbooking-4b5a4",
+    "storage_bucket": "carparkbooking-4b5a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707944854135:android:880b20d1465ecdc6774c72",
+        "android_client_info": {
+          "package_name": "com.example.carparkbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707944854135-2qi2787l69n5fsfq63ateuur9hmeu2aq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSwo1Wr0Sl-HVbg--LhCXCqTBjmWK-1dA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707944854135-2qi2787l69n5fsfq63ateuur9hmeu2aq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
